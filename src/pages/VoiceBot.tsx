@@ -13,7 +13,7 @@ interface Message {
 const VoiceBot: React.FC<{ onClose: () => void }> = ({ onClose }) => {
   const [messages, setMessages] = useState<Message[]>([
     {
-      text: "Hello! I'm your AI assistant. How can I help you today?",
+      text: "Hello! I'm your AII assistant. How can I help you today?",
       type: 'bot',
       timestamp: new Date()
     }
